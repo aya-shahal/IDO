@@ -174,7 +174,7 @@ function TaskCard({
           <span className="task-label">Estimate</span>
           {isEditing ? (
             <input
-              type="number"
+              type="text"
               name="estimate"
               value={editedTask.estimate}
               onChange={handleChange}
