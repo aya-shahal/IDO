@@ -1,9 +1,9 @@
 // TaskCard.js
 import React, { useState } from "react";
 import "./TaskCard.css";
-import { updateItem, deleteItem } from "../../core/RequestEngine";
+import { updateItem } from "../../core/RequestEngine";
 import Edit from "../../assets/svg/edit1.svg";
-import Trash from "../../assets/images/trash.png";
+// import Trash from "../../assets/images/trash.png";
 
 function TaskCard({
   toDoId,
